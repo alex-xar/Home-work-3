@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  background: url(../img/background.png) 0 0/100% no-repeat #e5e5e5;
+}
+
+.header__box {
+  max-width: 1119px;
+  margin: 104px 0 680px 289px;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  column-gap: 260px;
+  margin: 0 0 90px 0;
+}
+.header__btn > a {
+  margin: 0 97px 0 0;
+  color: #fff;
+  line-height: 1.125rem;
+  font-weight: 700;
+}
+.header__btn-red {
+  padding: 20px;
+  background-color: red;
+  border-radius: 5px;
+}
+.header__btn > a:last-child {
+  margin: 0;
+}
+.header__title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 6.25rem;
+  line-height: 1em;
+  margin-bottom: 81px;
+  max-width: 660px;
+}
+.header__link-box > a {
+  background: url(../img/Union.png) 90% 50% no-repeat red;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px 80px 20px 20px;
+  color: #fff;
+}
+
+.main__cards {
+  max-width: 1130px;
+  margin: 0 auto;
+  margin-bottom: 272px;
+}
+.main__flex {
+  display: flex;
+  align-items: center;
+}
+.main__title {
+  margin-bottom: 40px;
+}
+.main__text {
+  max-width: 470px;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 2.2222222222em;
+  color: #402b2b;
+  opacity: 0.5;
+  margin: 0 0 70px 0;
+}
+.main__coltext {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  padding: 30px 55px;
+  color: #402b2b;
+  background: #f0e9e7;
+  border-left: solid 10px #ee4d47;
+  border-radius: 5px;
+}
+
+.spoiler {
+  background: url(../img/background2.png) top right/70% no-repeat;
+  padding: 220px 0 0 100px;
+  margin: 0 0 200px 0;
+}
+.spoiler__box {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.spoiler__content {
+  max-width: 550px;
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 44px 0 169px 0;
+}
+.spoiler__rol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.spoiler__title {
+  width: 430px;
+  box-shadow: 0px 0px 10px #e7adab;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.6666666667em;
+  background: url(../img/+.png) 95% 50% no-repeat #fff;
+  padding: 25px 70px 25px 25px;
+  border-radius: 5px;
+}
+.spoiler__text {
+  width: 430px;
+  display: none;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.6666666667em;
+  background-color: rgb(255, 247, 245);
+  opacity: 0.5;
+  padding: 35px;
+}
+
+.title {
+  color: #ee4d47;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.6666666667em;
+  text-transform: uppercase;
+}
+
+.slick {
+  margin-left: 240px;
+  margin-bottom: 160px;
+  display: flex;
+}
+.slick__text {
+  font-weight: 400;
+  font-size: 2.9375rem;
+  line-height: 140%;
+}
+
+.slider {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+.slider__item {
+  background-color: #fff;
+  max-height: 360px;
+  max-width: 420px;
+  padding: 50px;
+  border-radius: 7px;
+}
+.slider__text {
+  margin-bottom: 60px;
+  color: #402b2b;
+}
+.slider__name {
+  margin: 20px 0 0 20px;
+  font-weight: 700;
+}
+
+.lol {
+  display: flex;
+}
+
+.footer {
+  background: url(../img/background3.png) 0 0/100% no-repeat;
+}
+.footer__box {
+  width: 1100px;
+  margin: 0 auto;
+}
+.footer__getstart > a {
+  color: #fff;
+  line-height: 1.125rem;
+  font-weight: 700;
+  background: url(../img/Union.png) 90% 50% no-repeat red;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 20px 80px 20px 20px;
+  color: #fff;
+}

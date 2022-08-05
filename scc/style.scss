@@ -1,0 +1,204 @@
+@import "./_nullstyle.scss"; //обнуляющий стиль
+@import "./_calculator.scss"; //калькулятор
+
+body {
+  background: url(../img/background.png) 0 0/100% no-repeat #e5e5e5;
+}
+.header {
+  &__box {
+    max-width: 1119px;
+    margin: 104px 0 680px 289px;
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+    column-gap: 260px;
+    margin: 0 0 90px 0;
+  }
+  &__btn > a {
+    margin: 0 97px 0 0;
+    color: #fff;
+    line-height: rem(18);
+    font-weight: 700;
+  }
+  &__btn-red {
+    padding: 20px;
+    background-color: red;
+    border-radius: 5px;
+  }
+  &__btn > a:last-child {
+    margin: 0;
+  }
+
+  &__title {
+    color: #fff;
+    font-weight: 400;
+    font-size: rem(100);
+    line-height: em(100, 100);
+    margin-bottom: 81px;
+    max-width: 660px;
+  }
+
+  &__link-box > a {
+    background: url(../img/Union.png) 90% 50% no-repeat red;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px 80px 20px 20px;
+    color: #fff;
+  }
+}
+
+.main {
+  &__cards {
+    max-width: 1130px;
+    margin: 0 auto;
+    margin-bottom: 272px;
+  }
+  &__flex {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__text {
+    max-width: 470px;
+    font-weight: 300;
+    font-size: rem(18);
+    line-height: em(40, 18);
+    color: #402b2b;
+    opacity: 0.5;
+    margin: 0 0 70px 0;
+  }
+  &__coltext {
+    font-weight: 500;
+    font-size: rem(24);
+    line-height: em(36, 24);
+    padding: 30px 55px;
+    color: #402b2b;
+    background: #f0e9e7;
+    border-left: solid 10px #ee4d47;
+    border-radius: 5px;
+  }
+}
+.spoiler {
+  background: url(../img/background2.png) top right/70% no-repeat;
+  padding: 220px 0 0 100px;
+  margin: 0 0 200px 0;
+  &__box {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  &__content {
+    max-width: 550px;
+    font-weight: 400;
+    font-size: rem(48);
+    margin: 44px 0 169px 0;
+  }
+  &__rol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__title {
+    width: 430px;
+    box-shadow: 0px 0px 10px #e7adab;
+    font-weight: 500;
+    font-size: rem(18);
+    line-height: em(30, 18);
+    background: url(../img/+.png) 95% 50% no-repeat #fff;
+    padding: 25px 70px 25px 25px;
+    border-radius: 5px;
+  }
+  &__text {
+    width: 430px;
+    display: none;
+    font-weight: 300;
+    font-size: rem(18);
+    line-height: em(30, 18);
+    background-color: rgb(255, 247, 245);
+    opacity: 0.5;
+    padding: 35px;
+  }
+}
+.title {
+  color: #ee4d47;
+  font-weight: 700;
+  font-size: rem(24);
+  line-height: em(40, 24);
+  text-transform: uppercase;
+}
+.slick {
+  margin-left: 240px;
+  margin-bottom: 160px;
+  display: flex;
+  &__content {
+  }
+  &__text {
+    font-weight: 400;
+    font-size: rem(47);
+    line-height: 140%;
+  }
+}
+.slider {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  &__item {
+    background-color: #fff;
+    max-height: 360px;
+    max-width: 420px;
+    padding: 50px;
+    border-radius: 7px;
+  }
+  &__text {
+    margin-bottom: 60px;
+    color: #402b2b;
+  }
+  &__name {
+    margin: 20px 0 0 20px;
+    font-weight: 700;
+  }
+}
+.lol {
+  display: flex;
+}
+
+.footer {
+  background: url(../img/background3.png) 0 0/100% no-repeat;
+  &__box {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  &__top {
+  }
+  &__text {
+  }
+  &__form {
+  }
+  &__name {
+  }
+  &__email {
+  }
+  &__getstart {
+  }
+  &__getstart > a {
+    color: #fff;
+    line-height: rem(18);
+    font-weight: 700;
+    background: url(../img/Union.png) 90% 50% no-repeat red;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px 80px 20px 20px;
+    color: #fff;
+  }
+  &__midle {
+  }
+  &__logo {
+  }
+  &__btn {
+  }
+  &__bottom {
+  }
+}
